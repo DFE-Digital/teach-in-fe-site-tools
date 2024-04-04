@@ -6,7 +6,9 @@
   "scripts": {
     "test": "backstop test --config=backstop.config.js",
     "approve": "backstop approve --config=backstop.config.js",
-    "reference": "backstop reference --config=backstop.config.js"
+    "reference": "backstop reference --config=backstop.config.js",
+    "test-docker": "backstop test --docker --config=backstop.config.js",
+    "reference-docker": "backstop reference --docker --config=backstop.config.js"
   },
   "author": "",
   "license": "MIT",
