@@ -24,3 +24,9 @@ jobs:
 
             - name: Run test
               run: npm test
+
+            - name: Store report
+              uses: actions/upload-artifact@v4
+              with:
+                name: backstop-report
+                path: backstop_data/html_report
