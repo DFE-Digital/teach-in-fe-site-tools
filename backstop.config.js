@@ -21,7 +21,7 @@ const scenarios = pages.map(page => {
     "referenceUrl": "",
     "readyEvent": "",
     "readySelector": "",
-    "delay": 1000,
+    "delay": 5000,
     "hideSelectors": [],
     "removeSelectors": [],
     "hoverSelector": "",
