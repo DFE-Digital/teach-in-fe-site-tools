@@ -1,14 +1,2 @@
 [
-  {
-    "domain": ".teach-in-further-education.campaign.gov.uk",
-    "path": "/",
-    "name": "CookieControl",
-    "value": "{\"necessaryCookies\":[\"wp-postpass_*\"],\"optionalCookies\":{\"analytics\":\"revoked\",\"marketing\":\"revoked\"},\"statement\":{},\"consentDate\":1712222181552,\"consentExpiry\":90,\"interactedWith\":true,\"user\":\"AEF80625-FB47-43FF-B505-4947E401642E\"}",
-    "expirationDate": 1798790400,
-    "hostOnly": false,
-    "httpOnly": false,
-    "secure": false,
-    "session": false,
-    "sameSite": "Lax"
-  }
 ]

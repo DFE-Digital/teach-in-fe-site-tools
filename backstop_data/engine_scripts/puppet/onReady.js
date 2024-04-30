@@ -11,6 +11,9 @@ module.exports = async (page, scenario, vp) => {
     }
   })
 
+  // Reject analytics cookies
+  await page.click('#ccc-reject-settings');
+
   // Wait for 200ms to allow any async code to finish
   await new Promise(resolve => setTimeout(resolve, 200));
 
