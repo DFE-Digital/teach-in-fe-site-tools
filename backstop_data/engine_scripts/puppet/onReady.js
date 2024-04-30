@@ -11,5 +11,8 @@ module.exports = async (page, scenario, vp) => {
     }
   })
 
+  // Wait for 200ms to allow any async code to finish
+  await new Promise(resolve => setTimeout(resolve, 200));
+
   // add more ready handlers here...
 };
