@@ -37,3 +37,4 @@ jobs:
               with:
                 name: backstop_data_${{ env.NOW }}
                 path: backstop_data
+                retention-days: 14
